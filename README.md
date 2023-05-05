@@ -4,6 +4,8 @@ This repository contains the example and sample files to deploy a Custom Image C
 
 ## Prerequisites for Deployment:
 
+**Note** : You need to fork the repository to deploy it on Katonic Platform
+
 - `labels_file.json`: This file is required for feedback or performance metrics calculations of binary or multi-class classification problems.
 
 ***Please note that these classes should be in encoded format (eg. ["cat", "dog] will be [0, 1] or [1, 2]) for both binay and multi-class problems.***
