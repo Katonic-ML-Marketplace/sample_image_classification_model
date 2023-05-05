@@ -28,13 +28,16 @@ For more information on how to create and manage `schema.py` you can visit [here
 
 ## Sample Input Data for Prediction API
 
+```python
 {
     "data":"http://images.cocodataset.org/val2017/000000039769.jpg"
 }
-
+```
 ## Sample Input Data for Feedback API
 
+```python
 {
   "predicted_label": [1,3,4,1,1,1,3,3,4],
   "true_label": [1,3,4,3,1,1,4,3,4]
 }
+```
